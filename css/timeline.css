@@ -1,0 +1,58 @@
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding-left: 30px;
+  border-left: 2px solid var(--primary);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.timeline-content {
+  background: var(--card-color);
+  padding: 30px;
+  border-radius: 15px;
+  transition: var(--transition);
+}
+
+.timeline-content:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.timeline-date {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.timeline-content h3 {
+  margin: 12px 0 6px;
+}
+
+.timeline-content h4 {
+  color: var(--secondary);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: var(--secondary);
+  line-height: 1.8;
+}

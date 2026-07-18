@@ -1,0 +1,70 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: var(--card-color);
+  padding: 30px;
+  border-radius: 18px;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--primary);
+}
+
+.project-badge {
+  display: inline-block;
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.project-role {
+  color: var(--primary);
+  margin: 10px 0;
+}
+
+.project-description {
+  color: var(--secondary);
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.project-tags span {
+  background: #111827;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.project-metrics {
+  display: flex;
+  gap: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 20px;
+}
+
+.project-metrics strong {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--primary);
+}
+
+.project-metrics small {
+  color: var(--secondary);
+}
