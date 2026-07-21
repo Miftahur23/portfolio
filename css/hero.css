@@ -97,3 +97,20 @@
   color: var(--primary);
   font-weight: 700;
 }
+
+.hero-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.hero-tech-stack i {
+  font-size: 2rem;
+  transition: var(--transition);
+  cursor: default;
+}
+
+.hero-tech-stack i:hover {
+  transform: translateY(-5px) scale(1.15);
+}
