@@ -25,14 +25,14 @@ ul {
 }
 
 .container {
-  width: min(90%, var(--max-width));
-  margin-inline: auto;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 section {
   padding: 100px 0;
 }
-
 
 .section-title {
   text-align: center;

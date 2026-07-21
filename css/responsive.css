@@ -1,8 +1,23 @@
 @media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+
+  .contact-card {
+    padding: 14px 8px;
+  }
+
+  .contact-card i {
+    font-size: 1.8rem;
+  }
+
+  .contact-card h3 {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-
   .nav-links {
     display: none;
     position: absolute;
@@ -61,10 +76,17 @@
 }
 
 @media (max-width: 576px) {
-}
+  .contact-grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+  }
 
-@media (max-width: 480px) {
-  .stats-grid {
-    grid-template-columns: 1fr;
+  .contact-card {
+    padding: 12px 6px;
+    border-radius: 12px;
+  }
+
+  .contact-card i {
+    font-size: 1.5rem;
   }
 }
