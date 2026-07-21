@@ -58,10 +58,16 @@
 }
 
 .company-info {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 12px;
   margin: 12px 0 18px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.company-info:hover {
+  color: var(--primary);
 }
 
 .company-logo {

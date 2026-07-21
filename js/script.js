@@ -22,3 +22,9 @@ menuToggle.addEventListener("click", toggleMenu);
 navItems.forEach((item) => {
   item.addEventListener("click", closeMenu);
 });
+
+document.querySelectorAll(".company-info").forEach((company) => {
+  company.addEventListener("click", () => {
+    window.open(company.dataset.url, "_blank", "noopener,noreferrer");
+  });
+});
