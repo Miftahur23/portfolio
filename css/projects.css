@@ -40,9 +40,19 @@
 
 .project-tags {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 16px;
+  align-items: center;
   margin-bottom: 25px;
+}
+
+.project-tags i {
+  font-size: 2rem;
+  transition: var(--transition);
+  cursor: default;
+}
+
+.project-tags i:hover {
+  transform: translateY(-4px) scale(1.15);
 }
 
 .project-tags span {

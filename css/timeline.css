@@ -56,3 +56,31 @@
   color: var(--secondary);
   line-height: 1.8;
 }
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0 18px;
+}
+
+.company-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.company-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.company-link:hover {
+  color: var(--primary);
+}
